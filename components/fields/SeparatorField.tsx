@@ -16,7 +16,7 @@ export const SeparatorFieldFormElement: FormElement = {
   }),
   designerBtnElement: {
     icon: Minus,
-    label: 'SeparatorField',
+    label: 'Separator',
   },
   designerComponent: DesignerComponent,
   formComponent: FormComponent,
@@ -28,7 +28,7 @@ export const SeparatorFieldFormElement: FormElement = {
 function DesignerComponent() {
   return (
     <div className="flex flex-col gap-2 w-full">
-      <Label className="text-muted-foreground">Separator Field</Label>
+      <Label className="text-muted-foreground">Separator</Label>
       <Separator />
     </div>
   );

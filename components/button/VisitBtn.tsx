@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Button } from './ui/button';
+import { Button } from '../ui/button';
 
 function VisitBtn({ shareUrl }: { shareUrl: string }) {
   const [mounted, setMounted] = useState(false);

@@ -25,7 +25,7 @@ import {
 const type: ElementsType = 'SubTitleField';
 
 const extraAttributes = {
-  title: 'Subtitle Field',
+  title: 'Subtitle',
 };
 
 const propertiesSchema = z.object({
@@ -41,7 +41,7 @@ export const SubTitleFieldFormElement: FormElement = {
   }),
   designerBtnElement: {
     icon: Heading2,
-    label: 'SubTitleField',
+    label: 'Subtitle',
   },
   designerComponent: DesignerComponent,
   formComponent: FormComponent,
@@ -66,7 +66,7 @@ function DesignerComponent({
 
   return (
     <div className="flex flex-col gap-2 w-full">
-      <Label className="text-muted-foreground">Title Field</Label>
+      <Label className="text-muted-foreground">Subtitle</Label>
       <p className="text-lg">{title}</p>
     </div>
   );

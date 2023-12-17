@@ -29,7 +29,7 @@ import { cn } from '@/lib/utils';
 const type: ElementsType = 'NumberField';
 
 const extraAttributes = {
-  label: 'Number Field',
+  label: 'Number',
   description: 'Description',
   required: false,
   placeholder: '0',
@@ -51,7 +51,7 @@ export const NumberFieldFormElement: FormElement = {
   }),
   designerBtnElement: {
     icon: Bs123,
-    label: 'Number Field',
+    label: 'Number',
   },
   designerComponent: DesignerComponent,
   formComponent: FormComponent,

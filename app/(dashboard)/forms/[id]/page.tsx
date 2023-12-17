@@ -1,7 +1,7 @@
 import { GetFormById } from '@/actions/form';
 import FormLinkShare from '@/components/FormLinkShare';
 import SubmissionsTable from '@/components/SubmissionsTable';
-import VisitBtn from '@/components/VisitBtn';
+import VisitBtn from '@/components/button/VisitBtn';
 import StatsContainer from '@/components/container/StatsContainer';
 
 interface FormPageProps {

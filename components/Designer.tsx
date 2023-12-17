@@ -118,7 +118,7 @@ function Designer() {
 
         let newElementIndex = overElementIndex;
         if (isDroppingOverDesignerElementBottomHalf) {
-          newElementIndex = overElementIndex + 1;
+          newElementIndex = overElementIndex;
         }
 
         addElement(newElementIndex, activeElement);

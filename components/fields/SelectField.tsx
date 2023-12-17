@@ -40,10 +40,10 @@ import { toast } from '../ui/use-toast';
 const type: ElementsType = 'SelectField';
 
 const extraAttributes = {
-  label: 'Select Field',
+  label: 'Select',
   description: 'Description',
   required: false,
-  placeholder: 'Type here',
+  placeholder: 'Choose an option',
   options: [],
 };
 
@@ -64,7 +64,7 @@ export const SelectFieldFormElement: FormElement = {
   }),
   designerBtnElement: {
     icon: RxDropdownMenu,
-    label: 'Select Field',
+    label: 'Select',
   },
   designerComponent: DesignerComponent,
   formComponent: FormComponent,

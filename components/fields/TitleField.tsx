@@ -25,7 +25,7 @@ import {
 const type: ElementsType = 'TitleField';
 
 const extraAttributes = {
-  title: 'Title Field',
+  title: 'Title',
 };
 
 const propertiesSchema = z.object({
@@ -41,7 +41,7 @@ export const TitleFieldFormElement: FormElement = {
   }),
   designerBtnElement: {
     icon: Heading1,
-    label: 'TitleField',
+    label: 'Title',
   },
   designerComponent: DesignerComponent,
   formComponent: FormComponent,
@@ -66,7 +66,7 @@ function DesignerComponent({
 
   return (
     <div className="flex flex-col gap-2 w-full">
-      <Label className="text-muted-foreground">Title Field</Label>
+      <Label className="text-muted-foreground">Title</Label>
       <p className="text-xl">{title}</p>
     </div>
   );

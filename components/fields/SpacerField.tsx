@@ -42,7 +42,7 @@ export const SpacerFieldFormElement: FormElement = {
   }),
   designerBtnElement: {
     icon: SeparatorHorizontal,
-    label: 'SpacerField',
+    label: 'Spacer',
   },
   designerComponent: DesignerComponent,
   formComponent: FormComponent,
@@ -67,7 +67,7 @@ function DesignerComponent({
 
   return (
     <div className="flex flex-col gap-2 w-full items-center">
-      <Label className="text-muted-foreground">Spacer Field: {height}px</Label>
+      <Label className="text-muted-foreground">Spacer: {height}px</Label>
       <SeparatorHorizontal className="h-8 w-8" />
     </div>
   );

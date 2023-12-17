@@ -29,7 +29,7 @@ import { cn } from '@/lib/utils';
 const type: ElementsType = 'TextField';
 
 const extraAttributes = {
-  label: 'Text Field',
+  label: 'Text',
   description: 'Description',
   required: false,
   placeholder: 'Type here',
@@ -51,7 +51,7 @@ export const TextFieldFormElement: FormElement = {
   }),
   designerBtnElement: {
     icon: Type,
-    label: 'TextField',
+    label: 'Text',
   },
   designerComponent: DesignerComponent,
   formComponent: FormComponent,

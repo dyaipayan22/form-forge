@@ -42,7 +42,7 @@ export const ParagraphFieldFormElement: FormElement = {
   }),
   designerBtnElement: {
     icon: WrapText,
-    label: 'Paragraph Field',
+    label: 'Paragraph',
   },
   designerComponent: DesignerComponent,
   formComponent: FormComponent,
@@ -67,7 +67,7 @@ function DesignerComponent({
 
   return (
     <div className="flex flex-col gap-2 w-full">
-      <Label className="text-muted-foreground">Paragraph Field</Label>
+      <Label className="text-muted-foreground">Paragraph</Label>
       <p>{text}</p>
     </div>
   );

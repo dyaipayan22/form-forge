@@ -66,7 +66,6 @@ function SubmitForm({
         variant: 'destructive',
       });
     }
-    console.log(formValues.current);
   };
 
   if (submitted) {
