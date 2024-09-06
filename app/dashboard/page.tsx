@@ -1,14 +1,14 @@
-import { Suspense } from 'react';
+import { Suspense } from "react";
 
 import StatsContainer, {
   CardStatsWrapper,
-} from '@/components/container/StatsContainer';
-import { Separator } from '@/components/ui/separator';
-import CreateFormBtn from '@/components/button/CreateFormBtn';
-import FormCard from '@/components/card/FormCard';
-import FormCardsContainer from '@/components/container/FormCardsContainer';
+} from "@/components/container/StatsContainer";
+import { Separator } from "@/components/ui/separator";
+import CreateFormBtn from "@/components/button/CreateFormBtn";
+import FormCard from "@/components/card/FormCard";
+import FormCardsContainer from "@/components/container/FormCardsContainer";
 
-async function Home() {
+async function Dashboard() {
   return (
     <div className="container mx-auto">
       <Suspense fallback={<StatsContainer loading={true} />}>
@@ -31,4 +31,4 @@ async function Home() {
   );
 }
 
-export default Home;
+export default Dashboard;
